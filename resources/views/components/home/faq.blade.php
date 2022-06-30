@@ -8,7 +8,7 @@
                     <dt class="text-lg">
                         <button type="button" x-description="Expand/collapse question button" class="text-left w-full flex justify-between items-start text-gray-400" aria-controls="faq-0" @click="open = !open" aria-expanded="false" x-bind:aria-expanded="open.toString()">
                   <span class="font-medium text-gray-900">
-                    Kunnen jullie echt niks van het berichtje inzien?
+                    Kunnen jullie de berichtjes inzien die wij versturen?
                   </span>
                             <span class="ml-6 h-7 flex items-center">
                     <svg class="h-6 w-6 transform rotate-0" x-description="Expand/collapse icon, toggle classes based on question open state.
@@ -20,7 +20,8 @@
                         </button>
                     </dt>
                     <dd class="mt-2 pr-12" id="faq-0" x-show="open">
-                        <p class="text-base text-gray-500">Nee wij kunnen echt niks inzien! Ookal zouden wij dat willen dan is het voor ons alsnog onmogelijk om het bericht te decrypten.</p>
+                        <p class="text-base text-gray-500">Nee wij kunnen niks inzien. Zelfs als wij dat zouden willen is het voor ons alsnog onmogelijk om het bericht te decrypten. Wij maken namelijk gebruik
+                            van de <a href="https://github.com/exonet/securemessage" class="text-indigo-600 hover:text-indigo-800" target="_blank">Securemessage software van Exonett.</a> En volledig open-source!</p>
                     </dd>
                 </div>
 

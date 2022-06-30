@@ -7,7 +7,7 @@
                 <img class="h-10" src="img/logo.png" alt="Company name">
                 <p class="text-gray-400 text-base">Maakt het versturen van gevoelige gegevens nu nog veiliger!</p>
                 <div class="flex space-x-6">
-                    <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <a href="https://github.com/casfreriks" class="text-gray-400 hover:text-gray-500" target="_blank">
                         <span class="sr-only">GitHub</span>
                         <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path fill-rule="evenodd"

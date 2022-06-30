@@ -1,8 +1,8 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative bg-white py-16 sm:py-24 lg:py-32" id="features">
     <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-        <h2 class="text-base font-semibold uppercase tracking-wider text-indigo-600">Werk veiliger</h2>
-        <p class="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Waarom is het encrypten bij ons veilig</p>
+        <h2 class="text-base font-semibold uppercase tracking-wider text-indigo-600">Werk veiliger en makkelijker</h2>
+        <p class="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Waarom is het handig om bij ons berichten te versturen</p>
         <p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">Via onze site heb je verschillende veiligheids- maatregelen als je gevoelige gegevens stuurt.</p>
         <div class="mt-12">
             <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
