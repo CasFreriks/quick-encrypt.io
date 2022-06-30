@@ -91,6 +91,11 @@
                         <div class="bg-white sm:max-w-md sm:w-full sm:mx-auto sm:rounded-lg sm:overflow-hidden">
                             <div class="px-4 py-8 sm:px-10">
 
+                                <div class="flex flex-row justify-center">
+                                    <a href="#" class="w-1/2 flex justify-center border border-transparent rounded-md text-white bg-indigo-600 hover:bg-indigo-700 py-2 px-3 mt-3 mr-1">Bericht via mail</a>
+                                    <a href="{{ route('encryption-link.index') }}" class="w-1/2 flex justify-center border border-transparent rounded-md text-white bg-indigo-600 hover:bg-indigo-700 py-2 px-3 mt-3 ml-1">Bericht via link</a>
+                                </div>
+
                                 <div class="mt-6 relative">
                                     <div class="absolute inset-0 flex items-center" aria-hidden="true">
                                         <div class="w-full border-t border-gray-300"></div>
@@ -103,6 +108,7 @@
                                 </div>
 
                                 <div class="mt-6">
+
                                     <form action="{{ route('home.store') }}" method="POST" class="space-y-6" autocomplete="off">
                                         @csrf
                                         <div>

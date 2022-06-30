@@ -27,6 +27,10 @@ Route::post('/login', [LoginController::class, 'store'])->name('login.store');
 
 Route::get('/note', [NoteController::class, 'index'])->name('note.index');
 
+Route::get('/encryption-link', function () {
+    return view('encryption-link');
+})->name('encryption-link.index');
+
 Route::get('/test', function () {
    return view('test');
 });
