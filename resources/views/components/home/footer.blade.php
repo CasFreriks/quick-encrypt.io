@@ -23,15 +23,15 @@
                         <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Navigatie</h3>
                         <ul role="list" class="mt-4 space-y-4">
                             <li>
-                                <a href="#home" class="text-base text-gray-300 hover:text-white"> Home </a>
+                                <a href="{{route('home.index')}}#home" class="text-base text-gray-300 hover:text-white"> Home </a>
                             </li>
 
                             <li>
-                                <a href="#features" class="text-base text-gray-300 hover:text-white"> Features </a>
+                                <a href="{{route('home.index')}}#features" class="text-base text-gray-300 hover:text-white"> Features </a>
                             </li>
 
                             <li>
-                                <a href="#faq" class="text-base text-gray-300 hover:text-white"> FAQ </a>
+                                <a href="{{route('home.index')}}#faq" class="text-base text-gray-300 hover:text-white"> FAQ </a>
                             </li>
 
                         </ul>
